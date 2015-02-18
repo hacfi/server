@@ -16,7 +16,7 @@ fi
 sed -i 's/^ZSH_THEME=\"robbyrussell\"$/ZSH_THEME=\"hacfi\"/' ~/.zshrc
 sed -i 's/^plugins=(git)$/plugins=(debian docker git history rsync)/' ~/.zshrc
 
-if [ "$UID" != 0 ];
+if [ $USER != 'root' ];
   then echo "sudo -i" > ~/.zlogin
 fi
 
