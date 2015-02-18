@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -u
-
 curl -L http://install.ohmyz.sh | sh
 
 curl -L https://github.com/hacfi/dotfiles/raw/master/zsh/hacfi.zsh -o ~/.oh-my-zsh/custom/hacfi.zsh
