@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -eu
+set -u
 
 curl -L http://install.ohmyz.sh | sh
 
