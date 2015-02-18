@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -euo pipefail
+set -eu
 
 curl -L http://install.ohmyz.sh | sh
 

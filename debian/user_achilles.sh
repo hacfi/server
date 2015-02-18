@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -euo pipefail
+set -eu
 
 apt-get install -y sudo
 useradd -D -g 33
